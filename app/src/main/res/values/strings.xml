@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Controle de Inventario</string>
+
+    <!-- Textos da EmptyView da tela inicial -->
+    <string name="empty_view_title_text">Nenhum produto cadastrado.</string>
+    <string name="empty_view_subtitle_text">Incluia um novo clicando no botão abaixo.</string>
+
+    <!-- Textos fixos do editor -->
+    <string name="product_overview">Produto</string>
+    <string name="supplier_overview">Fornecedor</string>
+    <string name="label_product_quantity">Quantidade:</string>
+
+    <!-- Hints para os EditTexts do editor -->
+    <string name="hint_product_name">Nome</string>
+    <string name="hint_product_price">Preço</string>
+    <string name="hint_quantity_total">Total</string>
+
+    <!-- Texto para a moeda do EditText de preço -->
+    <string name="unit_product_price">R$</string>
+
+    <!-- Textos dos botões do editor -->
+    <string name="order_from_supplier">Solicitar item do fornecedor</string>
+    <string name="item_sale">Venda</string>
+    <string name="item_shipment">Receb.</string>
+
+    <!-- Textos das opções de menu do editor -->
+    <string name="action_edit">Editar</string>
+    <string name="action_save">Salvar</string>
+    <string name="action_delete">Excluir</string>
+
+    <!-- Títulos da tela de edição -->
+    <string name="editor_activity_title_new_product">Novo Produto</string>
+    <string name="editor_activity_title_edit_product">Edição do Produto</string>
+    <string name="editor_activity_title_view_product">Consulta do Produto</string>
+
+    <!-- Texto e opções da caixa de diálogo de cancelamento da edição -->
+    <string name="unsaved_changes_dialog_msg">Deseja descartar as alterações e sair?</string>
+    <string name="discard">Descartar</string>
+    <string name="keep_editing">Continuar editando</string>
+
+    <!-- Texto e opções da caixa de diálogo de confirmação da exclusão de um produto (editor) -->
+    <string name="delete_dialog_msg">Excluir este produto?</string>
+    <string name="delete">Excluir</string>
+    <string name="cancel">Cancelar</string>
+
+    <!-- Texto e opções da caixa de diálogo de confirmação da venda de um produto (tela inicial) -->
+    <string name="sale_dialog_msg">Confirma 1 venda deste produto?</string>
+    <string name="sale">Vender</string>
+
+    <!-- Textos da solicitação de permissões -->
+    <string name="editor_permissions_title">Permissões necessárias</string>
+    <string name="editor_permissions_message">Para que o aplicativo registre corretamente as imagens é necessário permitir o acesso ao armazenamento</string>
+
+    <!-- Mensagens diversas exibidas para o usuário durante a edição -->
+    <string name="editor_delete_product_successful">Produto excluído</string>
+    <string name="editor_delete_product_failed">Ocorreu um erro durante a exclusão do produto</string>
+    <string name="editor_insert_product_successful">Produto cadastrado</string>
+    <string name="editor_insert_product_failed">Ocorreu um erro durante a inclusão do produto</string>
+    <string name="editor_update_product_successful">Produto atualizado</string>
+    <string name="editor_update_product_failed">Ocorreu um erro durante a atualização do produto</string>
+    <string name="editor_sale_quantity_error">A quantidade total de vendas deve ser maior que 1</string>
+    <string name="editor_shipment_quantity_error">A quantidade total de recebimentos deve ser maior que 1</string>
+    <string name="editor_information_missing">É necessário fornecer o nome, a imagem do produto e selecionar um fornecedor</string>
+
+    <!-- Título e opções do menu pop-up para escolher a imagem do produto -->
+    <string name="image_source_label">Adicione uma foto</string>
+    <string name="image_source_camera">Câmera</string>
+    <string name="image_source_gallery">Galeria</string>
+
+    <!-- Título e opções do menu pop-up para escolher o contato com o fornecedor -->
+    <string name="supplier_contact_label">Solicitar por</string>
+    <string name="supplier_contact_email">E-mail</string>
+    <string name="supplier_contact_phone">Telefone</string>
+
+    <!-- Título para a tela de seleção de imagens (galeria) -->
+    <string name="image_gallery_label">Selecione uma imagem</string>
+
+    <!-- Textos para o e-mail de contato com o fornecedor -->
+    <string name="email_subject">Solicitação de item de produto</string>
+    <string name="email_text_introdution">Caro</string>
+    <string name="email_text_body1">Solicitamos o envio de mais um item do produto</string>
+    <string name="email_text_body2">conforme imagem em anexo.</string>
+    <string name="email_text_end">Muito obrigado,</string>
+    <string name="email_text_signature" translatable="false">Marcio Solutions</string>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- opções para o menu pop-up da imagem do produto -->
+    <string-array name="image_source_options">
+        <item>@string/image_source_camera</item>
+        <item>@string/image_source_gallery</item>
+        <item>@string/cancel</item>
+    </string-array>
+
+    <!-- opções para o menu pop-up do contato com o fornecedor -->
+    <string-array name="supplier_contact_options">
+        <item>@string/supplier_contact_email</item>
+        <item>@string/supplier_contact_phone</item>
+        <item>@string/cancel</item>
+    </string-array>
+</resources>
